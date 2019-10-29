@@ -2,6 +2,10 @@ variable "prefix" {
   default = "testprefix"
 }
 
+provider "azurerm" {
+  version = "=1.36.0"
+}
+
 resource "azurerm_resource_group" "main" {
   name     = "${var.prefix}-resources"
   location = "West US 2"
