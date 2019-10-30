@@ -154,4 +154,3 @@ resource "azurerm_resource_group" "NetworkWatcheRG" {
   location = "${var.location}"
 }
 
-
