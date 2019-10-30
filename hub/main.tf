@@ -135,8 +135,6 @@ resource "azurerm_subnet_route_table_association" "test" {
   route_table_id = "${azurerm_route_table.test.id}"
 }
 
-
-
 resource "azurerm_resource_group" "" {
   name     = "bdc_canada_central_hub_network_firewall"
   location = "${var.location}"
