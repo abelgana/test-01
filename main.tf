@@ -1,5 +1,5 @@
 variable "prefix" {
-  default = "testprefixl"
+  default = "testprefix"
 }
 
 provider "azurerm" {
