@@ -84,7 +84,6 @@ resource "azurerm_network_interface" "nic_internal" {
   }
 }
 
-
 resource "azurerm_resource_group" "rg_hub_network_connectivity" {
   name     = "bdc_canada_central_hub_network_connectivity"
   location = "${var.location}"
